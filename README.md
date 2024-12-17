@@ -42,7 +42,7 @@ This repository contains a Python implementation for connecting to the Cogent Da
 - PID.py
     - Demonstrates how to continuously write data points to the DataHub by creating multiple PID Controllers. 
 
--TrendChart.py
+- TrendChart.py
     - A real-time data visualization tool based on Matplotlib, that reads data from the DataHub.
 
     
@@ -89,5 +89,25 @@ Please refer to the documentation link below for a in depth view of the DataHubC
 
 ## License
 
-[MIT]
+MIT License
+
+Copyright (c) 2024 Cogent DataHub
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
