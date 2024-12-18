@@ -33,16 +33,16 @@ This repository contains a Python implementation for connecting to the Cogent Da
 
 ## Components
 
-- DataHubConnection.py 
+- **DataHubConnection.py **
     - Provides classes and methods to establish and manage connections to the DataHub.
 
-- lispparse.py
+- **lispparse.py**
     - Contains utilities for parsing and handling LISP-like syntax used by DataHub commands.
 
-- PID.py
+- **PID.py**
     - Demonstrates how to continuously write data points to the DataHub by creating multiple PID Controllers. 
 
-- TrendChart.py
+- **TrendChart.py**
     - A real-time data visualization tool based on Matplotlib, that reads data from the DataHub.
 
     
