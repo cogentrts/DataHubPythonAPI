@@ -86,7 +86,7 @@ python TrendChart.py
 
 
 ## Documentation
-Please refer to the documentation link below for an in depth view of the DataHubConnection, PID controller, TrendChart and lispparse. 
+Please refer to the documentation link below for an in depth view of the DataHub Connection, PID controller and TrendChart. 
 
 [Documentation](https://linktodocumentation)
 
