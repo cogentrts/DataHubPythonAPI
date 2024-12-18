@@ -14,7 +14,7 @@ This repository contains a Python implementation for connecting to the Cogent Da
 
 [Installation](#Installation)
 
-[Usage/Examples](#Examples)
+[Examples](#Examples)
 
 [Documentation](#Documentation)
 
