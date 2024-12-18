@@ -73,12 +73,16 @@ python PID.py
 ```
 4. In the DataHub, navigate to the Data Browser. You will see that a DataPid domain was created, along with 8 sample PID Controllers. This is sampling 8 live PID controllers pushing live data, using the python DataHub connection.
 
+<img width="957" alt="DataBrowserScreenshot" src="https://github.com/user-attachments/assets/b7742d43-c41d-4d66-be94-4f8511249f70" />
+
 5. While leaving the PID simulator running, open a new command prompt. Once again, navigate to the PythonDataHubAPI folder. this time, run Trendchart.py, using bash:
 ```bash
 python TrendChart.py
 ```
 
 6. A TrendChart should appear, drawing out the live data from the first PID controller that you are simulating, using PID.py. The points can be compared between the Data Browser in the DataHub, and the TrendChart. You can see the points updating live, using the Python API. 
+
+<img width="586" alt="TrendChartScreenshot" src="https://github.com/user-attachments/assets/535c8faf-2e55-4d82-bf57-5294ecabf904" />
 
 
 ## Documentation
