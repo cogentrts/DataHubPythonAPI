@@ -14,7 +14,7 @@ This repository contains a Python implementation for connecting to the Cogent Da
 
 [Installation](#Installation)
 
-[Usage/Examples](#Usage/Examples)
+[Usage/Examples](#Examples)
 
 [Documentation](#Documentation)
 
@@ -61,9 +61,9 @@ pip install PythonDataHubAPI
 
     
 
-## Usage/Examples
+## Examples
 
-1. Ensure your DataHub instance is running, and accepting connections, for this example, on port 4502.
+1. Ensure your DataHub instance is running, and accepting connections, for this example, on port 4502. If you need to install the DataHub, you can find it [here](https://cogentdatahub.com/download/).
 
 2. Navigate to the downloaded PythonDataHubAPI folder. In here, there are 2 example files, PID.py, and TrendChart.py.
 
@@ -82,7 +82,7 @@ python TrendChart.py
 
 
 ## Documentation
-Please refer to the documentation link below for a in depth view of the DataHubConnection, PID controller, and TrendChart. 
+Please refer to the documentation link below for an in depth view of the DataHubConnection, PID controller, TrendChart and lispparse. 
 
 [Documentation](https://linktodocumentation)
 
