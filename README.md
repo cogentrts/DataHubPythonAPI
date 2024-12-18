@@ -33,7 +33,7 @@ This repository contains a Python implementation for connecting to the Cogent Da
 
 ## Components
 
-- **DataHubConnection.py **
+- **DataHubConnection.py**
     - Provides classes and methods to establish and manage connections to the DataHub.
 
 - **lispparse.py**
