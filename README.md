@@ -1,5 +1,5 @@
 
-# <h1><img align="center" src="https://cogentdatahub.com/media/datahub-icon-60x60-1.svg">&nbsp;DataHub&trade; API for Python</h1>
+# <a href="#"><h3><img align="center" src="https://cogentdatahub.com/media/datahub-icon-60x60-1.svg">&nbsp;DataHub&trade; API for Python</h3></a>
 
 
 This repository contains a Python implementation for connecting to the Cogent DataHub, along with examples of writing data using a PID Controller, as well as reading data and updating live to a Trend Chart.
