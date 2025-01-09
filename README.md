@@ -96,7 +96,7 @@ Please refer to the documentation link below for an in depth view of the DataHub
 
 MIT License
 
-Copyright (c) 2024 Cogent DataHub
+Copyright (c) 2024 Cogent Real-Time Systems, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
