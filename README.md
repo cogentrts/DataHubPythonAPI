@@ -54,7 +54,7 @@ Ensure you have Python 3 or later installed.
 You may install the repository using pip from your command line:
 
 ```bash
-pip install PythonDataHubAPI 
+pip install CogentDataHubAPI 
 ```
 
  
