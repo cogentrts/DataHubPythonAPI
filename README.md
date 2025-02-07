@@ -2,7 +2,7 @@
 # <h1><img align="center" src="https://cogentdatahub.com/media/datahub-icon-60x60-1.svg">&nbsp;DataHub&trade; API for Python</h1>
 
 
-This repository contains a Python implementation for connecting to the Cogent DataHub, along with examples of writing data using a PID Controller, as well as reading data and updating live to a Trend Chart.
+This repository contains a Python implementation for connecting in real time to the Cogent DataHub, along with examples of writing data using a PID Controller, reading data and updating live to a Trend Chart.
 
 
 
@@ -25,9 +25,9 @@ This repository contains a Python implementation for connecting to the Cogent Da
 
 ## Features
 
-- Connection to the Cogent DataHub: Establishes a connection to the DataHub API.
+- Connection to the Cogent DataHub: Establishes a real-time connection to Cogent DataHub.
 - Real-time Data Visualization: Demonstrates how to read and plot data points in real-time, using Matplotlib.
-- PID Controller: Demonstrates how to continuously write data points to the DataHub by creating a PID Controller. 
+- PID Controller: Demonstrates how to continuously write data points to the DataHub by creating a simulated PID Controller. 
 
 
 
@@ -35,7 +35,7 @@ This repository contains a Python implementation for connecting to the Cogent Da
 ## Components
 
 - **DataHubConnection.py**
-    - Provides classes and methods to establish and manage connections to the DataHub.
+    - Provides classes and methods to establish and manage TCP connections to the DataHub.
 
 - **lispparse.py**
     - Contains utilities for parsing and handling LISP-like syntax used by DataHub commands.
@@ -44,7 +44,7 @@ This repository contains a Python implementation for connecting to the Cogent Da
     - Demonstrates how to continuously write data points to the DataHub by creating multiple PID Controllers. 
 
 - **TrendChart.py**
-    - A real-time data visualization tool based on Matplotlib, that reads data from the DataHub.
+    - A real-time data visualization tool based on Matplotlib that reads data from the DataHub.
 
     
 ## Installation
@@ -66,7 +66,7 @@ pip install CogentDataHubAPI
 
 1. Ensure your DataHub instance is running, and accepting connections, for this example, on port 4502. If you need to install the DataHub, you can find it [here](https://cogentdatahub.com/download/).
 
-2. Navigate to the downloaded PythonDataHubAPI folder. In here, there are 2 example files, PID.py, and TrendChart.py.
+2. Navigate to the downloaded DataHubPythonAPI folder. In here, there are 2 example files, PID.py, and TrendChart.py.
 
 3. Run PID.py, using bash:
 ```bash
@@ -76,7 +76,7 @@ python PID.py
 
 <img width="957" alt="DataBrowserScreenshot" src="https://github.com/user-attachments/assets/b7742d43-c41d-4d66-be94-4f8511249f70" />
 
-5. While leaving the PID simulator running, open a new command prompt. Once again, navigate to the PythonDataHubAPI folder. this time, run Trendchart.py, using bash:
+5. While leaving the PID simulator running, open a new command prompt. Once again, navigate to the DataHubPythonAPI folder. this time, run Trendchart.py, using bash:
 ```bash
 python TrendChart.py
 ```
