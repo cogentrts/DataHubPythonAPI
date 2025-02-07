@@ -277,7 +277,7 @@ def change_procvar(pid):
     pid.pv = pid_calculate_procvar(pid)
     output_point(pid, "DataPid:" + pid.pvTag, pid.pv)
 
-def have_connection(client, allpids):
+def have_connection(client : MyConnection, allpids):
     """
     Handle a successful connection.
 
@@ -286,6 +286,10 @@ def have_connection(client, allpids):
         allpids: List of all PID controllers.
     """
     print(f"Connection succeeded on {client.name}")
+    # Mark all data from this connection as Not Connected when the connection is lost
+    client.sendCommand("(set_authoritative 1)")
+
+    # Register all points for the PID controllers and transmit the model to create a data point hierarchy.
     for pid in allpids:
         register_pid(client, pid, True)
         outputControlPoints(client, pid)
