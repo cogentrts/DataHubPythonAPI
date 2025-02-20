@@ -4,7 +4,7 @@ import socket
 import lispparse as lp
 from random import random
 from enum import Enum, IntFlag, IntEnum, Flag
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 from typing import Optional, Union
 from uuid import UUID
@@ -409,7 +409,7 @@ class PointMetaInfo:
     """
     Dataclass representing metadata information for a point.
     """
-    ValidFlags: MetadataFlags = MetadataFlags.NONE
+    ValidFlags: MetadataFlags = field(default_factory=MetadataFlags.NONE)
     Eu: Optional[str] = None
     Description: Optional[str] = None
     EuHigh: float = 0.0
