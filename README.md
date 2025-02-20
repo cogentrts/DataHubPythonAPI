@@ -66,7 +66,7 @@ pip install CogentDataHubAPI
 
 1. Ensure your DataHub instance is running, and accepting connections, for this example, on port 4502. If you need to install the DataHub, you can find it [here](https://cogentdatahub.com/download/).
 
-2. Navigate to the downloaded DataHubPythonAPI folder. In here, there are 2 example files, PID.py, and TrendChart.py.
+2. Navigate to the downloaded CogentDataHubAPI folder. In here, there are 2 example files, PID.py, and TrendChart.py.
 
 3. Run PID.py, using bash:
 ```bash
